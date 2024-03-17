@@ -5,3 +5,38 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", arial, sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-wrapper {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px 20px 40px 20px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.main-wrapper img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.main-wrapper h2 {
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.main-wrapper p {
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  line-height: 1.5em;
+}
